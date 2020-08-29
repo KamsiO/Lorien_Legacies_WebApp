@@ -32,12 +32,12 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 ### Homepage
 The homepage is a landing page for the website. There is a video showing the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the website.
 
-![Home Demo](Lorien_Legacies_Website/Demos/home.gif)
+![Home Demo](Demos/home.gif)
 
 ### Character List page
 The character page has 4 different buttons representing the groups that all the characters in the series fall under. Clicking on one of these buttons opens up a list of characters and their descriptions for that group. Some character descriptions mention other characters that are within the page. Clicking on these mentioned names will scroll the user to the correct character and flash their description, opening and closing sections if nessecary.
 
-![Character Demo](Lorien_Legacies_Website/Demos/characters.gif)
+![Character Demo](Demos/characters.gif)
 
 ### Books in Series page
 The books page shows covers of each book in the series. Clicking on a picture will open a popup which displays information and quotes for that specific book. The popup has a gradient animation background for styling. 
@@ -47,12 +47,12 @@ The books page shows covers of each book in the series. Clicking on a picture wi
 ### Legacy Quiz page
 The quiz page makes use of CSS display styling to create an immersive experience. For example, the background of the page will change based on which legacy the user is assigned from the quiz. JS functions are used to keep track of the user's answers and which questions, options, and images are displayed, making the quiz offline accesible and easy to take without endless scrolling through questions!
 
-![Quiz Demo](Lorien_Legacies_Website/Demos/quiz.gif)
+![Quiz Demo](Demos/quiz.gif)
 
 ### Responsive Design
 This webiste was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It it mobile friendly, and responds to resizing and rotation.
 
-![Responsive Demo](Lorien_Legacies_Website/LL website/Demos/responsive.gif)
+![Responsive Demo](Demos/responsive.gif)
 
 ## Author
 Kamsi Oramasionwu
