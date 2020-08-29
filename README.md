@@ -61,4 +61,4 @@ Kamsi Oramasionwu
 ## Acknowledgements
 "The Lorien Legacies" is a book series by Pittacus Lore and published by HarperCollins. I do not own the right to any of the characters mentioned or any of the images of book covers. Additionally, I don't own any of the pictures included throughout the website. I downloaded them from various free wallpaper websites, and slightly altered a few for styling purposes.
 
-I would like to thank [Kenolisa Oramasionwu](https://www.instagram.com/kenolisauce/?hl=en) for his graphic design and layout tips as I remasterd this project.
+I would like to thank [Kenolisa Oramasionwu](https://www.instagram.com/kenolisauce/?hl=en) for his graphic design and layout inputs as I remasterd this project.
