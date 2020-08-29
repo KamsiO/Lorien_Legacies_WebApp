@@ -31,24 +31,26 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 ## Features
 ### Homepage
 The homepage is a landing page for the website. There is a video showing of the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the website.
+
 ![Home Demo](Lorien_Legacies_Website/Demos/home.gif)
 
 ### Character List page
 The character page has 4 different buttons representing the groups that all the characters in the series fall under. Clicking on one of these buttons opens up a list of characters and their descriptions for that group. Some character descriptions mention other characters that are within the page. Clicking on these mentioned names will scroll the user to the correct character and flash the description, opening and closing sections and scrolling through the page if nessecary.
-![Home Demo](Lorien_Legacies_Website/Demos/characters.gif)
+
+![Character Demo](Lorien_Legacies_Website/Demos/characters.gif)
 
 ### Books in Series page
 The books page shows covers of each book in the series. Clicking on a picture will open a popup which displays information and quotes for hat specific book. The popup has a gradient animation background for styling. 
-![Home Demo](Lorien_Legacies_Website/Demos/books.gif)
+
+![Books Demo](Lorien_Legacies_Website/Demos/books.gif)
 
 ### Legacy Quiz page
 The quiz page makes use of CSS display styling to create an immersive experience. For example, the background of the page will change based on which legacy the user is assigned from the quiz. JS functions are used to keep track of users answers and which questions, options, and images are displayed, making the quiz offline accesible and easy to take without endless crolling through questions!
-![Home Demo](Lorien_Legacies_Website/Demos/quiz.gif)
+![Quiz Demo](Lorien_Legacies_Website/Demos/quiz.gif)
 
 ### Responsive Design
 This webiste was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It it mobile friendly, and responds to resizing and rotation.
-![Responsive demo](Lorien_Legacies_Website/Demos/responsive.gif)
-
+![Responsive Demo](Lorien_Legacies_Website/Demos/responsive.gif)
 
 ## Author
 Kamsi Oramasionwu
