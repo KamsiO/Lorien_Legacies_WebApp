@@ -32,7 +32,7 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 ### Homepage
 The homepage is a landing page for the website. There is a video showing the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the website.
 
-![Home Demo](Lorien_Legacies_Website/LL website/Demos/home.gif)
+![Home Demo](Lorien_Legacies_Website/"LL website"/Demos/home.gif)
 
 ### Character List page
 The character page has 4 different buttons representing the groups that all the characters in the series fall under. Clicking on one of these buttons opens up a list of characters and their descriptions for that group. Some character descriptions mention other characters that are within the page. Clicking on these mentioned names will scroll the user to the correct character and flash their description, opening and closing sections if nessecary.
