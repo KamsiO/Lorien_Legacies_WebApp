@@ -1,0 +1,317 @@
+#navbar-custom {
+  background-color: #202020;
+}
+
+#navbar-custom a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navbarLinks a:hover {
+  color: #ff8000;
+}
+
+#navbar-custom img:hover {
+  filter: sepia(100%);
+}
+
+#quizHeader {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-image: url("lorien legacies.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.quizOverlay {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  overflow-y: auto;
+}
+
+.quizOverlay h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.quizOverlay p {
+  color: white;
+}
+
+.text-responsive-h1 {
+  font-size: calc(250% + 1vw + 1vh);
+}
+
+.text-responsive-p {
+  font-size: calc(60% + 1vw + 1vh);
+}
+
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#startBtn {
+  margin-top: 15px;
+  background-color: #330000;
+  color: white;
+  border: none;
+  font-family: Georgia; serif;
+  font-weight: lighter;
+}
+
+#startBtn:hover {
+  background-color: #220000;
+  color: #fcd9cf;
+  cursor: pointer;
+}
+
+.quizQs {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: auto;
+  color: white;
+}
+
+.quizQs h1 {
+  font-size: 300%;
+}
+
+.quizQs p {
+  font-size: 150%;
+}
+
+.quizQs button {
+  height:125px;
+  margin-bottom: 20px;
+  background-color: #540606;
+  color: white;
+  border: none;
+  font-size: 100%;
+  border-radius: 6px;
+}
+
+.quizQs button:hover {
+  background-color: #330000;
+  color: white;
+  cursor: pointer;
+}
+
+/* creates a button click effect */
+.quizQs button:active {
+  margin-left: 1px;
+  margin-right: -1px;
+}
+
+/* remove blue outline from Boostrap button when pressed*/
+button:focus {
+  outline: none;
+}
+
+.quizQs img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+#imgOps1 img:hover,
+#imgOps2 img:hover {
+  filter: sepia(50%);
+  cursor: pointer;
+}
+
+#imgOps1 img:active,
+#imgOps2 img:active {
+  margin-left: 1px;
+  margin-right: -1px;
+}
+
+#resultPg {
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+#legacyOverlay {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+}
+
+.Result h1 {
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.Result p {
+  color: white;
+}
+
+.text-responsive-h1-2 {
+  font-size: calc(210% + 1vw + 1vh);
+}
+
+.text-responsive-p-2 {
+  font-size: calc(80% + 1vw + 1vh);
+}
+
+.Result button {
+  background-color: #efecec;
+  color: #333333;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 15px 32px;
+  font-size: 18px;
+  font-family: Georgia; serif;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+#legacyOverlay button:hover {
+  background-color: #c0c0c0;
+  cursor: pointer;
+}
+
+/*media queries to fit content on mobile devices:*/
+
+/* smaller phones portrait query */
+@media screen and (max-width: 600px) {
+  .quizQs button {
+    height: auto;
+    padding: 25px 0px;
+  }
+}
+
+/* large phone landscape query */
+@media screen and (min-width: 750px) and (max-width: 850px) {
+  .quizOverlay h1 {
+    margin-top: 15px;
+  }
+  .quizOverlay p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #startBtn {
+    margin-bottom: 20px;
+  }
+  #resultPg h1 {
+    margin-top: 15px;
+  }
+}
+
+/* for all smaller devices in both orientations */
+@media screen and (max-width: 992px) {
+  .quizQs img {
+    width: 75%;
+    height: auto;
+  }
+  .quizQs button:hover {
+    background-color: #540606;
+  }
+}
+
+/* ipad pro landscape query */
+@media screen and (min-width: 1366px) and (max-width: 1366px) {
+  .quizQs h1 {
+    font-size: 400%;
+  }
+  .quizQs p {
+    color: white;
+    font-size: 200%;
+  }
+  .quizQs img {
+    width: 120%;
+    height: 180px;
+  }
+  #imgOps1 .col-lg-4,
+  #imgOps2 .col-lg-4 {
+    margin-left: -40px;
+  }
+  .quizQs button {
+    height: 155px;
+    width: 220px;
+    font-size: 110%;
+  }
+}
+
+/* ipad pro portrait query */
+@media only screen and (min-height: 1366px)
+and (max-height: 1366px)
+and (orientation: portrait) {
+  .quizQs h1 {
+    font-size: 420%;
+  }
+  .quizQs p {
+    color: white;
+    font-size: 220%;
+  }
+  .col-lg-4 {
+    margin-left: -80px;
+  }
+  .quizQs img {
+    width: 150%;
+    height: 180px;
+  }
+  .quizQs button {
+    height: 175px;
+    width: 250px;
+    font-size: 130%;
+  }
+}
+
+/* ipad pro 12.9 portrait query */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .quizQs h1 {
+    font-size: 420%;
+  }
+  .quizQs p {
+    color: white;
+    font-size: 220%;
+  }
+  .col-lg-4 {
+    margin-left: -90px;
+  }
+  .quizQs img {
+    width: 150%;
+    height: 180px;
+  }
+  .quizQs button {
+    height: 175px;
+    width: 250px;
+    font-size: 130%;
+  }
+}
