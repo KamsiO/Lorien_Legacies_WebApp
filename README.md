@@ -23,7 +23,7 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 ## Setup
 * Download ZIP of repository 
 * [Install](https://nodejs.org/en/download/) Node.js and npm on your device
-* Use command line to navigate into local copy of LL Website folder
+* Use command line to navigate into local copy of repository
 * Install Express: `npm install express --save`
 * Install Morgan: `npm install morgan --save`
 * Run the program: `node app.js`
