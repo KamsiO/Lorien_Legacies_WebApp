@@ -8,7 +8,7 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 * [Features](#features)
 
 ## Introduction 
-"The Lorien Legacies" by Pittacus Lore is one of my favorite book series. The dedicated fan website for the series recently went down, and I wanted to create my own fan website which consolidates trivia from the series and fun features like a series based quiz in the likes of a "Harry Potter" house sorting quiz. I used this opportunity to pick up new skills in web development like learning JQuery and responsive design using Bootstrap 4 and CSS media queries. Altogether, this project is 4-page celebration of an amazing book series.
+"The Lorien Legacies" by Pittacus Lore is one of my favorite book series. The dedicated fan website for the series recently went down, and I wanted to create my own fan website which consolidates trivia from the series and fun features like a series based quiz in the likes of a "Harry Potter" house sorting quiz. I used this opportunity to pick up new skills in web development like learning JQuery and responsive design using Bootstrap 4 and CSS media queries. Altogether, this project is a 4-page celebration of an amazing book series.
 
 ## Built With
 * HTML5
@@ -20,8 +20,8 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 * Express.js
 
 ## Setup
-* Clone Lorien_Legacies_Website and create local copy on computer 
-* [Install](https://nodejs.org/en/download/) Node.js and mpm on your device
+* Download ZIP of repository 
+* [Install](https://nodejs.org/en/download/) Node.js and npm on your device
 * Use command line to navigate into local copy of LL Website folder
 * Install Express: `npm install express --save`
 * Install Morgan: `npm install morgan --save`
@@ -30,25 +30,28 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 
 ## Features
 ### Homepage
-The homepage is a landing page for the website. There is a video showing of the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the website.
-![Home Demo](Lorien_Legacies_Website/Demos/home.gif)
+The homepage is a landing page for the website. There is a video showing the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the website.
+
+![Home Demo](Lorien_Legacies_Website/LL_website/Demos/home.gif)
 
 ### Character List page
-The character page has 4 different buttons representing the groups that all the characters in the series fall under. Clicking on one of these buttons opens up a list of characters and their descriptions for that group. Some character descriptions mention other characters that are within the page. Clicking on these mentioned names will scroll the user to the correct character and flash the description, opening and closing sections and scrolling through the page if nessecary.
-![Home Demo](Lorien_Legacies_Website/Demos/characters.gif)
+The character page has 4 different buttons representing the groups that all the characters in the series fall under. Clicking on one of these buttons opens up a list of characters and their descriptions for that group. Some character descriptions mention other characters that are within the page. Clicking on these mentioned names will scroll the user to the correct character and flash their description, opening and closing sections if nessecary.
+
+![Character Demo](LL website/Demos/characters.gif)
 
 ### Books in Series page
-The books page shows covers of each book in the series. Clicking on a picture will open a popup which displays information and quotes for hat specific book. The popup has a gradient animation background for styling. 
-![Home Demo](Lorien_Legacies_Website/Demos/books.gif)
+The books page shows covers of each book in the series. Clicking on a picture will open a popup which displays information and quotes for that specific book. The popup has a gradient animation background for styling. 
+
+![Books Demo](Lorien_Legacies_Website/LL website/Demos/books.gif)
 
 ### Legacy Quiz page
-The quiz page makes use of CSS display styling to create an immersive experience. For example, the background of the page will change based on which legacy the user is assigned from the quiz. JS functions are used to keep track of users answers and which questions, options, and images are displayed, making the quiz offline accesible and easy to take without endless crolling through questions!
-![Home Demo](Lorien_Legacies_Website/Demos/quiz.gif)
+The quiz page makes use of CSS display styling to create an immersive experience. For example, the background of the page will change based on which legacy the user is assigned from the quiz. JS functions are used to keep track of the user's answers and which questions, options, and images are displayed, making the quiz offline accesible and easy to take without endless scrolling through questions!
+![Quiz Demo](Lorien_Legacies_Website/Demos/quiz.gif)
 
 ### Responsive Design
 This webiste was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It it mobile friendly, and responds to resizing and rotation.
-![Responsive demo](Lorien_Legacies_Website/Demos/responsive.gif)
 
+![Responsive Demo](Lorien_Legacies_Website/LL website/Demos/responsive.gif)
 
 ## Author
 Kamsi Oramasionwu
