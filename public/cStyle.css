@@ -1,0 +1,367 @@
+#navbar-custom {
+  background-color: #202020;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#navbar-custom a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navbarLinks a:hover {
+  color: #ff8000;
+}
+
+#navbar-custom img:hover {
+  filter: sepia(100%);
+}
+
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.charHeader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("cBckg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.charOverlay {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  scroll-snap-type: y proximity;
+  scroll-padding: 60px;
+}
+
+#charTitle {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 700%;
+}
+
+#charContent {
+  position: absolute;
+  opacity: 0;
+}
+
+#characterContainer {
+  /*visibility: hidden;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow-x: hidden; */
+  width: 100%;
+  margin-bottom: 130px;
+}
+
+#characters img {
+  text-align: center;
+  /* margin-top: 10px;
+  margin-bottom: 70px; */
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+#characters h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 370%;
+  /* color: #ff8000; */
+  color: black;
+  font-family: Georgia, serif;
+  font-weight: bolder;
+}
+
+/*#characters h4 {
+  color: #b3b3b3;
+  font-family: monospace;
+  margin-bottom: 10px;
+}*/
+
+#characters h3 {
+  color: #b3b3b3;
+  font-size: 200%;
+  /* color: white;
+  font-size: 200%;
+  text-shadow: 0.5px 0.5px 2px #000000;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-radius: 5px; */
+}
+
+#characters h3:hover {
+  color: #ffb24d !important;
+  /* background-color: rgba(255, 125, 3, 0.7) !important; */
+  cursor: pointer;
+}
+
+
+/*#characterContainer.slide {
+  visibility: visible;
+  width: 100%;
+  animation: slide-left 1.5s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }*/
+
+
+.description {
+  margin-top: 20px;
+  font-family: monospace;
+  color: #4d4d4d;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-top: #ededeb solid medium;
+  border-bottom: #ededeb solid medium;
+}
+
+#characterContent p {
+  color: black;
+}
+
+#name {
+  color: #ff8000 !important;
+  font-size: 140%;
+  font-weight: bolder;
+}
+
+.characterBlock {
+  padding: 15px 30px 10px 30px;
+  border-radius: 10px;
+  transition: background-color ease-in-out 1s;
+}
+
+#info {
+  text-align: justify !important;
+}
+
+#legacy,
+#charge,
+#assignedCepan {
+  font-weight: bold;
+  color: #ffb24d;
+}
+
+.mention {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.mention:hover {
+  color: #ff8000;
+  cursor: pointer;
+}
+
+/* media quieres to fit content and edit behaviour on mobile devices: */
+
+/* samsung galaxy fold portrait query */
+@media screen and (max-width: 300px) {
+  #charTitle {
+    font-size: calc(170% + 1vw + 1vh) !important;
+  }
+  #characters h2 {
+    font-size: 195% !important;
+  }
+  .description {
+    font-size: 120%;
+  }
+  p {
+    font-size: 70%;
+  }
+}
+
+/* iphone 5/SE portrait query */
+@media screen and (min-width: 310px) and (max-width: 320px) {
+  #charTitle {
+    font-size: calc(200% + 1vw + 1vh) !important;
+  }
+  #characters h2 {
+    font-size: 220%;
+  }
+  .description {
+    font-size: 120%;
+  }
+  #characterContainer {
+    margin-bottom: 50px;
+  }
+  #characters img {
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+}
+
+/* small phones portrait query */
+@media screen and (max-width: 600px) {
+  #charTitle {
+    font-size: calc(230% + 1vw + 1vh);
+  }
+  #characters img {
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+}
+
+/* small phone landscape query */
+@media screen and (max-height: 500px) {
+  #charTitle {
+    font-size: calc(320% + 1vw + 1vh);
+  }
+  #characters img {
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+  #characterContainer {
+    margin-bottom: 50px;
+  }
+  #characters h2 {
+    font-size: 350%;
+  }
+  .description {
+    font-size: 140%;
+  }
+}
+
+/* medium phone portrait query */
+@media screen and (min-width: 330px) and (max-width: 420px) {
+  #characterContainer {
+    margin-bottom: 50px;
+  }
+  #characters h2 {
+    font-size: 260%;
+  }
+  #characters img {
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+}
+
+/* large phone portrait query */
+@media screen and (min-height: 800px) and (max-height: 830px) {
+  #characterContainer {
+    margin-bottom: 150px;
+  }
+}
+
+/* ipad landscape query */
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  #characterContainer {
+    margin-bottom: 250px;
+  }
+  p {
+    font-size: 120%;
+  }
+  #characters img {
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+}
+
+/* ipad portrait query */
+@media screen and (min-height: 1024px)
+and (max-height: 1024px)
+and (orientation: portrait) {
+  #charTitle {
+    font-size: calc(430% + 1vw + 1vh);
+  }
+  #characterContainer {
+    margin-top: 50px;
+    margin-bottom: 400px;
+  }
+  #characters h2 {
+    font-size: 400%;
+  }
+  #characters h3 {
+    font-size: 190%;
+  }
+  .description {
+    font-size: 150%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
+/* ipad pro landscape query */
+@media screen and (min-width: 1366px) and (max-width: 1366px) {
+  #characters h2 {
+    font-size: 550%;
+  }
+  #characters h3 {
+    font-size: 320%;
+  }
+  #characterContainer {
+    margin-bottom: 300px;
+  }
+}
+
+/* ipad pro portrait query */
+@media screen and (min-height: 1366px)
+and (max-height: 1366px)
+and (orientation: portrait) {
+  #characterContainer {
+    margin-bottom: 730px;
+  }
+  #characters h2 {
+    font-size: 550%;
+  }
+  #characters h3 {
+    font-size: 250%;
+  }
+  .description {
+    font-size: 210%;
+  }
+  p {
+    font-size: 130%;
+  }
+}
+
+/* ipad pro 12.9 portrait query */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  #characterContainer {
+    margin-bottom: 580px;
+  }
+  #characters h2 {
+    font-size: 550%;
+  }
+  #characters h3 {
+    font-size: 250%;
+  }
+  .description {
+    font-size: 165%;
+  }
+  p {
+    font-size: 110%;
+  }
+}
+
+/* high definition laptop/desktop display query */
+@media screen and (min-width: 1367px) {
+  #characterContainer {
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+}
