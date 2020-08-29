@@ -21,7 +21,7 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 * Express.js
 
 ## Setup
-* Download ZIP of repository 
+* Download ZIP of repository and unzip 
 * [Install](https://nodejs.org/en/download/) Node.js and npm on your device
 * Use command line to navigate into local copy of repository
 * Install Express: `npm install express --save`
