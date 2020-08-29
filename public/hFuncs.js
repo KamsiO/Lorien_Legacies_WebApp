@@ -24,7 +24,7 @@ $('#cText').hover(function() {
   $('#c').css('opacity', '1');
   $('#c').css('transform', 'scale(1.2)');
 }, function() {
-  // on mouseout, resets opacity and scale
+  //on mouseout, resets opacity and scale
   $('#c').css('opacity', '0.4');
   $('#c').css('transform', 'scale(1.0)');
 });

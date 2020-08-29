@@ -10,23 +10,13 @@ window.addEventListener('DOMContentLoaded', getHeight());
 //controls opacity scroll effects
 document.getElementById("charOverlay").onscroll = function(){
   var fromTop = $("#charOverlay").scrollTop();
-  //var sideScrolled = false;
 
   $("#charHeader").css("opacity", 1 - fromTop / $("#charHeader").height());
   $("#charTitle").css("opacity", 1 - fromTop / ($("#charHeader").height()/5));
   $("#charContent").css("opacity", fromTop / ($("#charHeader").height() + $("#charContent").height()/20));
-
-  // if ((document.getElementById('charHeader').style.opacity < 0) && !sideScrolled) {
-  //   document.getElementById("characterContainer").className = "slide";
-  //   sideScrolled = true;
-  // }
-  // else if (document.getElementById('subtitle').style.opacity < 1 && sideScrolled) {
-  //   document.getElementById("characters").classList.remove("characters");
-  //   sideScrolled = false;
-  // }
 }
 
-// variables to determine if a character section is currently open
+//variables to determine if a character section is currently open
 var garde = false;
 var cepan = false;
 var humans = false;
@@ -79,7 +69,7 @@ function toggleCharacter(character) {
   document.getElementById("CL").scrollIntoView({behavior: "smooth"});
 }
 
-//to hide all charcter sections
+//to hide all character sections
 function undoCharacters(){
   document.getElementById("garde").style.display = "none";
   document.getElementById("cepan").style.display = "none";
@@ -106,7 +96,7 @@ $('#characters h3').css('color', '#b3b3b3');
 
 //to scroll to mentioned character and flash that container red
 function findCharacter(characterMention, character) {
-  //checks which section charcter is under and opens that section
+  //checks which section character is under and opens that section
   if (characterMention.id == "mogMention") {
     undoCharacters();
     mogs = true;

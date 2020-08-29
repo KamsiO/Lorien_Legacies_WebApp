@@ -21,7 +21,7 @@ var qCounter = 0;
 //variable for the current question number; set at 2 since #qNum = Question 1
 var headingNumber = 2;
 
-// an array of question strings
+//an array of question strings
 var questions = ["QuestionOne Text here", "Which one of these feels most like home?",
 "An ally gets injured during a fight. What do you do?", "Your most valuable weapon in a fight is: ",
 "Which best describes what you like to do in your free time?",
@@ -69,7 +69,6 @@ function storeAns(answer){
   //if-statments that check qCounter to know when to display a btn or img
   //question, simply update the question and answer texts, or change to the
   //result page
-
   if (qCounter == 1) {
     //show the first picture option question
     setTimeout(function(){

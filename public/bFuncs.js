@@ -11,15 +11,6 @@ window.addEventListener('DOMContentLoaded', getHeight());
 //controls opacity scroll effects
 document.getElementById("booksOverlay").onscroll = function(){
   var fromTop = $("#booksOverlay").scrollTop()
-  // var toWhite = 0.15;
-  // toWhite = toWhite - fromTop/1.15;
-  // if (toWhite == 0) {
-  //   return toWhite;
-  // }
-  // else {
-  //   toWhite = toWhite - fromTop/1.15;
-  // }
-  //document.getElementById("booksOverlay").style.backgroundColor = 'rgba(0, 0, 0, ' + toWhite + ')';
   $("#booksHeader").css("opacity", 1 - fromTop / $("#booksHeader").height())
   $("#booksTitle").css("opacity", 1 - fromTop / ($("#booksHeader").height()/5.5))
 }
@@ -82,7 +73,7 @@ function popFunc(book) {
   }
 }
 
-//closes the the current popup by refrencing bookNum
+//closes the current popup by refrencing bookNum
 function close1() {
   document.getElementById(`pop${bookNum}`).style.display = "none";
   document.getElementById("popOverlay").style.opacity = '0';
