@@ -149,7 +149,7 @@ function calc(op1count, op2count, op3count, op4count){
     //They have invisibility
     document.getElementById("legacyName").innerHTML = "Your legacy is: Invisibility";
     document.getElementById("resultPg").style.backgroundImage = "url('1_B7ez4QN43JFiyLY2YyYhsA.jpeg')";
-    document.getElementById("legacyDescription").innerHTML = "Invisibility is one of Six's legacies. Not only can you and whatever you're wearing turn invisible, but you can also turn anything or anyone you touch invisible too. No visits to the opposite sex's locker room!";
+    document.getElementById("legacyDescription").innerHTML = "Invisibility is one of Six's legacies. Not only can you and whatever you're wearing turn invisible, but you can also turn anything or anyone you touch invisible too. Now you can make that career change to secret spy!";
   }
   //user picked mostly option 3
   else if (p3 > p1 && p3 > p2 && p3 > p4) {
