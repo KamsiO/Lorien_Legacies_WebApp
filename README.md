@@ -1,5 +1,5 @@
-# Lorien Legacies Website
-A multi-paged website for my favorite book series, "The Lorien Legacies" by Pittacus Lore – made using HTML, CSS, Bootstrap 4, JavaScript, and Node.js
+# Lorien Legacies Web Application
+A multi-paged web application for my favorite book series, "The Lorien Legacies" by Pittacus Lore – made using HTML, CSS, Bootstrap 4, JavaScript, and Node.js
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -9,7 +9,7 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 * [Acknowledgements](#acknowledgements)
 
 ## Introduction 
-"The Lorien Legacies" by Pittacus Lore is one of my favorite book series. The dedicated fan website for the series recently went down, and I wanted to create my own fan website which consolidates trivia from the series and fun features like a series based quiz in the likes of a "Harry Potter" house sorting quiz. I used this opportunity to pick up new skills in web development like learning JQuery and responsive design using Bootstrap 4 and CSS media queries. Altogether, this project is a 4-page celebration of an amazing book series.
+"The Lorien Legacies" by Pittacus Lore is one of my favorite book series. The dedicated fan website for the series recently went down, and I wanted to create my own fan web application which consolidates trivia from the series and fun features like a series based quiz in the likes of a "Harry Potter" house sorting quiz. I used this opportunity to pick up new skills in web development like learning JQuery and responsive design using Bootstrap 4 and CSS media queries. Altogether, this project is a 4-page celebration of an amazing book series.
 
 ## Built With
 * HTML5
@@ -31,7 +31,7 @@ A multi-paged website for my favorite book series, "The Lorien Legacies" by Pitt
 
 ## Features
 ### Homepage
-The homepage is a landing page for the website. There is a video showing the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the website.
+The homepage is a landing page for the web apllication. There is a video showing the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the web app.
 
 ![Home Demo](Demos/home.gif)
 
@@ -51,7 +51,7 @@ The quiz page makes use of CSS display styling to create an immersive experience
 ![Quiz Demo](Demos/quiz.gif)
 
 ### Responsive Design
-This webiste was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It it mobile friendly, and responds to resizing and rotation.
+This web application was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It it mobile friendly, and responds to resizing and rotation.
 
 ![Responsive Demo](Demos/responsive.gif)
 
