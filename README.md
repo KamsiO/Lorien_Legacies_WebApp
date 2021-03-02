@@ -55,7 +55,7 @@ This web application was remade with Boostrap 4 and utilizes CSS media queries f
 
 ![Responsive Demo](Demos/responsive.gif)
 
-To explore the website without installing, use this 3rd-party hosted ![demo](https://thelorienlegacies.000webhostapp.com).
+To explore the website without installing, use this 3rd-party hosted [demo](https://thelorienlegacies.000webhostapp.com).
 
 ## Author
 Kamsi Oramasionwu
