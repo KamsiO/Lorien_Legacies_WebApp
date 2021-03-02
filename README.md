@@ -51,9 +51,11 @@ The quiz page makes use of CSS display styling to create an immersive experience
 ![Quiz Demo](Demos/quiz.gif)
 
 ### Responsive Design
-This web application was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It it mobile friendly, and responds to resizing and rotation.
+This web application was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It is mobile friendly, and responds to resizing and rotation.
 
 ![Responsive Demo](Demos/responsive.gif)
+
+To explore the website without installing, use this 3rd-party hosted ![demo](https://thelorienlegacies.000webhostapp.com).
 
 ## Author
 Kamsi Oramasionwu
