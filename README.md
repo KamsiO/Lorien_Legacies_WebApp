@@ -30,6 +30,8 @@ A multi-paged web application for my favorite book series, "The Lorien Legacies"
 * Go to localhost:8888 on preferred browser. Enjoy!
 
 ## Features
+To explore the website without installing, use this 3rd-party hosted [demo](https://thelorienlegacies.000webhostapp.com).
+
 ### Homepage
 The homepage is a landing page for the web apllication. There is a video showing the signature warning at the beginning of each book in the series in the background of the header, plus there are image links to the 3 other pages in the web app.
 
@@ -54,8 +56,6 @@ The quiz page makes use of CSS display styling to create an immersive experience
 This web application was remade with Boostrap 4 and utilizes CSS media queries for a responsive experience. It is mobile friendly, and responds to resizing and rotation.
 
 ![Responsive Demo](Demos/responsive.gif)
-
-To explore the website without installing, use this 3rd-party hosted [demo](https://thelorienlegacies.000webhostapp.com).
 
 ## Author
 Kamsi Oramasionwu
