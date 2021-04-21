@@ -14,9 +14,9 @@ A multi-paged web application for my favorite book series, "The Lorien Legacies"
 ## Built With
 * HTML5
 * CSS
-* Bootsrap 4
+* Bootstrap 4
 * JavaScript
-* JQuery 3.5.1
+* jQuery 3.5.1
 * Node.js
 * Express.js
 
