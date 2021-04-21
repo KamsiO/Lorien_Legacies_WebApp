@@ -148,21 +148,21 @@ function calc(op1count, op2count, op3count, op4count){
   else if (p2 > p1 && p2 > p3 && p2 > p4) {
     //They have invisibility
     document.getElementById("legacyName").innerHTML = "Your legacy is: Invisibility";
-    document.getElementById("resultPg").style.backgroundImage = "url('1_B7ez4QN43JFiyLY2YyYhsA.jpeg')";
+    document.getElementById("resultPg").style.backgroundImage = "url('public/1_B7ez4QN43JFiyLY2YyYhsA.jpeg')";
     document.getElementById("legacyDescription").innerHTML = "Invisibility is one of Six's legacies. Not only can you and whatever you're wearing turn invisible, but you can also turn anything or anyone you touch invisible too. Now you can make that career change to secret spy!";
   }
   //user picked mostly option 3
   else if (p3 > p1 && p3 > p2 && p3 > p4) {
     //They have antigravity
     document.getElementById("legacyName").innerHTML = "Your legacy is: Antigravity!";
-    document.getElementById("resultPg").style.backgroundImage = "url('be4494514f290afed9f6636f63362498.jpg')";
+    document.getElementById("resultPg").style.backgroundImage = "url('public/be4494514f290afed9f6636f63362498.jpg')";
     document.getElementById("legacyDescription").innerHTML = "Antigravity is one of Nine's legacies. Walk on walls, walk on the ceiling, walk up the side of buildings; see the world from a new angle!";
   }
   //user picked mostly option 4
   else if (p4 > p1 && p4 > p3 && p4 > p2) {
     //They have teleportation
     document.getElementById("legacyName").innerHTML = "Your legacy is: Teleportation";
-    document.getElementById("resultPg").style.backgroundImage = "url('teleportation.jpg')";
+    document.getElementById("resultPg").style.backgroundImage = "url('public/teleportation.jpg')";
     document.getElementById("legacyDescription").innerHTML = "Teleportation is one of Eight's legacies. Teleport short distances and, if you happen to be near a large loralite rock, teleport across the world! In other words, never be late again.";
   }
   //user picked both option 2 and option 4 equally more than other options
@@ -176,7 +176,7 @@ function calc(op1count, op2count, op3count, op4count){
   else if (p2 == p3 && p2 > p1 && p2 > p4) {
     //They can fly
     document.getElementById("legacyName").innerHTML = "Your legacy is: Flight";
-    document.getElementById("resultPg").style.backgroundImage = "url('1200px-Levitaatio.jpg')";
+    document.getElementById("resultPg").style.backgroundImage = "url('public/1200px-Levitaatio.jpg')";
     document.getElementById("legacyDescription").innerHTML = "Flight is one of Five's legacies. Shoot up into the sky and go for a fly! It's much faster than, say, riding a bike. Watch out for lightning, birds, and planes."
   }
   //user picked both option 1 and option 3 equally more than other options
