@@ -7,15 +7,15 @@
   <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="public/hStyle.css">
-  <script src="jquery-3.5.1.js"></script>
+  <script src="public/jquery-3.5.1.js"></script>
 </head>
 
 <body onresize="getHeight()">
 
   <!--navigation bar-->
   <nav class="navbar navbar-expand-md sticky-top" id="navbar-custom">
-    <a href="/" class="navbar-brand">
-      <img src="logo.png" height="28" alt="Lorien Legacies">
+    <a href="index.html" class="navbar-brand">
+      <img src="public/logo.png" height="28" alt="Lorien Legacies">
     </a>
     <button type="button" class="navbar-toggler btn-outline-secondary" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="fa fa-bars"></span>
@@ -24,7 +24,7 @@
     <!--collapsible navigation bar for mobile devices-->
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav" id="navbarLinks">
-        <a href="\" class="nav-item nav-link">Home</a>
+        <a href="index.html" class="nav-item nav-link">Home</a>
         <a href="Characters.html" class="nav-item nav-link">Character List</a>
         <a href="Books.html" class="nav-item nav-link">Books in the Series</a>
         <a href="Quiz.html" class="nav-item nav-link">Find Out Your Legacy</a>
@@ -34,7 +34,7 @@
 
   <div class="container-fluid homeHeader" id="homeHeader">
     <video id="headerVid" autoplay muted loop>
-      <source src="backgroundvid.mp4" type="video/mp4">
+      <source src="public/backgroundvid.mp4" type="video/mp4">
     </video>
   </div>
 
@@ -60,7 +60,7 @@
         <div class="container links">
           <div class="row row-no-padding justify-content-center">
             <div class="col-lg-4 col-md-4 text-center" id="characters">
-              <a href="/Characters.html">
+              <a href="Characters.html">
                 <img class="rounded" src="public/cBckg.png" id="c">
               </a>
               <a href="Characters.html">
@@ -69,19 +69,19 @@
             </div>
 
             <div class="col-lg-4 col-md-4 text-center" id="books">
-              <a href="/Books.html">
-                <img class="rounded" src="7dfe177e1ca67906404b92df3ea05db5.jpg" id="b">
+              <a href="Books.html">
+                <img class="rounded" src="public/7dfe177e1ca67906404b92df3ea05db5.jpg" id="b">
               </a>
-              <a href="/Books.html">
+              <a href="Books.html">
                 <div class="centered" id="bText">BOOKS</div>
               </a>
             </div>
 
             <div class="col-lg-4 col-md-4 text-center" id="quiz">
-              <a href="/Quiz.html">
+              <a href="Quiz.html">
                 <img class="rounded" src="public/lorien legacies.jpg" id="q">
               </a>
-              <a href="/Quiz.html">
+              <a href="Quiz.html">
                 <div class="centered" id="qText">LEGACY</div>
               </a>
             </div>
