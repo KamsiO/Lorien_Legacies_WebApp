@@ -191,7 +191,7 @@ function calc(op1count, op2count, op3count, op4count){
     //They can control seismic waves
     document.getElementById("legacyName").innerHTML = "Your legacy is: Control of Seismic Waves";
     document.getElementById("resultPg").style.backgroundImage = "url('https://cdn5.eyeem.com/thumb/ecddb990f8b04710440144ad0499420059f0a43c-1487605631148/w/750')";
-    document.getElementById("legacyDescription").innerHTML = "The ability to create and control seismic waves is One's legacy, and later, Adam's. Create anything from a mild rumble that makes someone stumble to a full on earthquake (but like, don't actually just randomly create eathquakes...)"
+    document.getElementById("legacyDescription").innerHTML = "The ability to create and control seismic waves is One's legacy, and later, Adam's. Create anything from a mild rumble that makes someone stumble to a full on earthquake (but like, don't actually just randomly create earthquakes...)"
   }
   //user picked both option 1 and option 4 equally more than other options
   else if (p1 == p4 && p1 > p2 && p1 > p3) {
